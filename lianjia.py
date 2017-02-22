@@ -33,7 +33,7 @@ proxys = []
 #=========================setup a database, only execute in 1st running=================================
 def database_init(dbflag='local'):
      if dbflag=='local':
-         conn = pymysql.connect(user='lianjia', passwd='ljpassword', db='lianjiaHouse',host='raspberrypi',charset='utf8')
+         conn = pymysql.connect(user='lianjia', passwd='lj123456', db='lianjiaHouse',host='raspberrypi',charset='utf8')
      else:
          conn = pymysql.connect(user='qdm1944', passwd='password', db='qdm1944_db',host='qdm1944.my3w.com')
 
